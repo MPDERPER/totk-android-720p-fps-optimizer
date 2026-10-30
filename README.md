@@ -18,10 +18,10 @@ The original `maxlastbreath.ini` is preserved byte-for-byte.
 | Shadows | `ShadowResolution = 205` | Low shadow-resolution setting; potential visual-quality tradeoff. |
 | Render distance | `RenderDistance = 10000` | Configured distance; no measured speedup is claimed. |
 | Quality options | `QualityImprovements = On`, `DisableFXAA = On` | Enables the named UltraCam options and requests FXAA removal. |
-| Depth of field / lens flare | `RemoveDepthOfField = Off`, `RemoveLensflare = Off` | This preset does not request their removal. |
+| Depth of field / lens flare | `RemoveDepthOfField = On`, `RemoveLensflare = On` | Requests removal of both effects to reduce post-processing work and visual clutter. No independent performance gain was measured. |
 | Fog | `DisableFog = Off` | This preset does not request fog removal. |
 | Field of view | `Fov = 55` | Preset camera field of view. |
-| Handheld | `Width = 1280`, `Height = 720`, `OverrideHandheld_Resolution = On` | Handheld values exist, but the override is off; do not assume handheld rendering is forced to 720p. |
+| Handheld / portable mode | `Width = 1280`, `Height = 720`, `OverrideHandheld_Resolution = On` | Requests the 1280 × 720 handheld resolution override. Actual output still depends on UltraCam and emulator behavior. |
 | Benchmark selector | `Benchmark = 1` | A configuration value only; no benchmark was run for this release. |
 
 The graphics optimizations above are configuration choices, not independently measured improvements.
@@ -34,7 +34,7 @@ These are layout-based installation instructions. They have not been tested in a
 2. Download and extract the release ZIP. The folder `TOTK Android 720p FPS Optimizer` must contain both `exefs` and `romfs` directly beneath it.
 3. Use Eden's per-game mod/add-on management for Tears of the Kingdom to install or select that mod folder. If your build uses a mod directory instead of an importer, place the complete folder in the game's mod/load directory, preserving the layout below. If an importer accepts ZIPs, confirm it recognizes the nested mod folder; otherwise use the extracted folder.
 4. Enable this mod. Disable other mods that replace `exefs/main.npdm`, `exefs/subsdk3`, or the same UltraCam configuration, and avoid stacking conflicting FPS/resolution mods.
-5. Check emulator resolution scaling separately. The supplied preset uses `EmuScale = 1.0`. The handheld override remains off, as supplied.
+5. Check emulator resolution scaling separately. The supplied preset uses `EmuScale = 1.0` and enables the 1280 × 720 handheld/portable override.
 6. Start the game and check stability, game speed, image quality, and frame pacing. If the mod causes problems, disable it and restore your backup.
 
 ```text

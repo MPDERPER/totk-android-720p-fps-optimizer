@@ -1,11 +1,13 @@
-# v1.0.0 — Android 720p / 59 FPS preset
+# v1.1.0 — portable override and post-processing update
 
-Initial packaging of MPDERPER's supplied Tears of the Kingdom Android preset with MaxLastBreath's unchanged legacy UltraCam payload.
+Updated Android preset from MPDERPER with MaxLastBreath's unchanged legacy UltraCam payload.
 
 - Configured resolution: **1280 × 720**.
 - Gameplay and menu cap: **59 FPS**; movie setting: **29 FPS**.
 - Graphics settings include `ShadowResolution = 205`, `RenderDistance = 10000`, `QualityImprovements = On`, and `DisableFXAA = On`.
-- Handheld resolution override remains **off**, matching the supplied INI.
+- Removes depth of field with `RemoveDepthOfField = On`.
+- Removes lens flare with `RemoveLensflare = On`.
+- Enables the **1280 × 720 handheld/portable resolution override** with `OverrideHandheld_Resolution = On`.
 - **Reported performance:** MPDERPER reports **30+ FPS with frame generation on Eden Nightly**. This has not been independently verified. Hardware, build versions, test conditions, native FPS, and generated-frame contribution were not supplied. The cap is not a performance guarantee.
 - Frame generation is not bundled or enabled by this package.
 
