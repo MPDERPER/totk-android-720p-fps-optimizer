@@ -1,6 +1,6 @@
 # TOTK Android 720p FPS Optimizer
 
-An Android-focused UltraCam configuration preset packaged by **MPDERPER** for *The Legend of Zelda: Tears of the Kingdom*. It targets **1280 × 720** with a **59 FPS cap** and graphics settings intended to reduce rendering cost. The underlying UltraCam implementation is by **MaxLastBreath**.
+An Android-focused UltraCam FPS optimizer configured by **MPDERPER** for *The Legend of Zelda: Tears of the Kingdom*. It targets **1280 × 720** with a **59 FPS cap** and graphics settings intended to reduce rendering cost. The underlying UltraCam implementation is by **MaxLastBreath**.
 
 **Reported performance:** MPDERPER reports **30+ FPS with frame generation on Eden Nightly**. This is a user report, not an independently verified benchmark. No device specifications, Eden build number, game version, driver version, test scene, frame-time capture, or frame-generation method were supplied. It is unknown whether the reported counter includes generated frames. A 59 FPS cap is a configuration target, not a promise of sustained 59 FPS or 60 FPS gameplay. This package does not provide or enable frame generation itself.
 
@@ -15,7 +15,7 @@ The original `maxlastbreath.ini` is preserved byte-for-byte.
 | Menu cap | `MenuFPSLock = 59` | Requested menu frame-rate limit. |
 | Movies | `MovieFPS = 29` | Separate movie frame-rate setting. |
 | Emulator scale | `EmuScale = 1.0` | Preset scale value; emulator-side scaling must also be checked. |
-| Shadows | `ShadowResolution = 205` | Low shadow-resolution setting; potential visual-quality tradeoff. |
+| Shadows | `ShadowResolution = 206` | Reduced shadow-resolution setting; potential visual-quality tradeoff. |
 | Render distance | `RenderDistance = 10000` | Configured distance; no measured speedup is claimed. |
 | Quality options | `QualityImprovements = On`, `DisableFXAA = On` | Enables the named UltraCam options and requests FXAA removal. |
 | Depth of field / lens flare | `RemoveDepthOfField = On`, `RemoveLensflare = On` | Requests removal of both effects to reduce post-processing work and visual clutter. No independent performance gain was measured. |
@@ -61,3 +61,4 @@ The bundled upstream material is distributed under **Creative Commons Attributio
 ## Validation
 
 Static checks verified archive contents, exact copies of the provided files, binary matches to the pinned upstream source, and release ZIP integrity. **No game launch, Android device test, frame-generation test, or independent performance benchmark was performed.**
+
