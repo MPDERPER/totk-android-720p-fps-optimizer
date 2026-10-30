@@ -21,7 +21,7 @@ The original `maxlastbreath.ini` is preserved byte-for-byte.
 | Depth of field / lens flare | `RemoveDepthOfField = Off`, `RemoveLensflare = Off` | This preset does not request their removal. |
 | Fog | `DisableFog = Off` | This preset does not request fog removal. |
 | Field of view | `Fov = 55` | Preset camera field of view. |
-| Handheld | `Width = 1280`, `Height = 720`, `OverrideHandheld_Resolution = Off` | Handheld values exist, but the override is off; do not assume handheld rendering is forced to 720p. |
+| Handheld | `Width = 1280`, `Height = 720`, `OverrideHandheld_Resolution = On` | Handheld values exist, but the override is off; do not assume handheld rendering is forced to 720p. |
 | Benchmark selector | `Benchmark = 1` | A configuration value only; no benchmark was run for this release. |
 
 The graphics optimizations above are configuration choices, not independently measured improvements.
