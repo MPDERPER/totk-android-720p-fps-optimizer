@@ -1,4 +1,4 @@
 d593a80e5e53f8603afab0655af31bac0aa37ebf8ab8e205017e38b581d9a006  mod/TOTK Android 720p FPS Optimizer/exefs/main.npdm
 930e4e995239bb40a4f68fb1a237bcf1b28aa9ce0a581533f8a02a92f76472a6  mod/TOTK Android 720p FPS Optimizer/exefs/subsdk3
-276b31120ca42479848bd204fc3201ae48d837e347f5b1afebf678a6623783fd  mod/TOTK Android 720p FPS Optimizer/romfs/UltraCam/maxlastbreath.ini
+388b2da0cd0bc50e10e226ce8c8db252db8c12c70e1394ec9faa21b175d0814d  mod/TOTK Android 720p FPS Optimizer/romfs/UltraCam/maxlastbreath.ini
 

@@ -15,7 +15,7 @@ License notice: https://github.com/MaxLastBreath/nx-optimizer/blob/bd98bb3c9ee7e
 
 The pinned upstream tree contains one license file, LICENSE.md, declaring CC BY-NC 2.0. Its notice is included verbatim as LICENSE.upstream.md. The author describes UltraCam as distributing original code rather than game assets: https://www.patreon.com/MaxLastBreath/about
 
-The revised RAR contains exactly three files: the two binary files above and `romfs/UltraCam/maxlastbreath.ini`. The revised INI has SHA-256 `276b31120ca42479848bd204fc3201ae48d837e347f5b1afebf678a6623783fd`. No supplied README, installation guide, credits, or license file existed; these have been added.
+The v1.3.1 source RAR contains exactly three files: the two binary files above and `romfs/UltraCam/maxlastbreath.ini`. The v1.3.1 INI has SHA-256 `388b2da0cd0bc50e10e226ce8c8db252db8c12c70e1394ec9faa21b175d0814d`. No supplied README, installation guide, credits, or license file existed; these have been added.
 
 The configuration is preserved exactly. The source archive name mentions 60fps, but its actual gameplay cap is 59. The release name reflects the actual settings.
 
