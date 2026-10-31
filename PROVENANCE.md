@@ -15,11 +15,12 @@ License notice: https://github.com/MaxLastBreath/nx-optimizer/blob/bd98bb3c9ee7e
 
 The pinned upstream tree contains one license file, LICENSE.md, declaring CC BY-NC 2.0. Its notice is included verbatim as LICENSE.upstream.md. The author describes UltraCam as distributing original code rather than game assets: https://www.patreon.com/MaxLastBreath/about
 
-The v1.3.1 source RAR contains exactly three files: the two binary files above and `romfs/UltraCam/maxlastbreath.ini`. The v1.3.1 INI has SHA-256 `388b2da0cd0bc50e10e226ce8c8db252db8c12c70e1394ec9faa21b175d0814d`. No supplied README, installation guide, credits, or license file existed; these have been added.
+The v1.4.0 source RAR contains exactly three files: the two binary files above and `romfs/UltraCam/maxlastbreath.ini`. The v1.4.0 INI has SHA-256 `388b2da0cd0bc50e10e226ce8c8db252db8c12c70e1394ec9faa21b175d0814d`. Its functional configuration values match the v1.3.1 source configuration. No supplied README, installation guide, credits, or license file existed; these have been added.
 
 The configuration is preserved exactly. The source archive name mentions 60fps, but its actual gameplay cap is 59. The release name reflects the actual settings.
 
 main.npdm is executable metadata and subsdk3 has an NSO0 executable header. They were inspected and compared, not executed. No game ROM, update, firmware, keys, textures, models, music, or screenshots were found among the supplied files. No independent ownership audit of upstream code was performed.
 
 Validation is static only. No Android device, Eden installation, game session, or performance benchmark was run.
+
 

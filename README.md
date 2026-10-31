@@ -2,7 +2,7 @@
 
 An Android-focused UltraCam FPS optimizer configured by **MPDERPER** for *The Legend of Zelda: Tears of the Kingdom*. It targets **1280 × 720** with a **59 FPS cap** and graphics settings intended to reduce rendering cost. The underlying UltraCam implementation is by **MaxLastBreath**.
 
-**Reported performance:** MPDERPER reports **stable 30 FPS without frame generation** using this v1.3.1 configuration. This is a user report, not an independently verified benchmark. Device specifications, emulator build, game version, driver version, test scene, frame-time capture, and test duration were not supplied. A 59 FPS cap is a configuration target, not a promise of sustained 59 FPS or 60 FPS gameplay.
+**Reported performance:** MPDERPER reports **stable 30 FPS without frame generation** using this v1.4.0 configuration. This is a user report, not an independently verified benchmark. Device specifications, emulator build, game version, driver version, test scene, frame-time capture, and test duration were not supplied. A 59 FPS cap is a configuration target, not a promise of sustained 59 FPS or 60 FPS gameplay.
 
 ## Settings included
 
@@ -61,4 +61,5 @@ The bundled upstream material is distributed under **Creative Commons Attributio
 ## Validation
 
 Static checks verified archive contents, exact copies of the provided files, binary matches to the pinned upstream source, and release ZIP integrity. **No game launch, Android device test, or independent performance benchmark was performed.**
+
 
